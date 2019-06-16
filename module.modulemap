@@ -1,0 +1,7 @@
+module CBLAS_Linux [system] {
+  header "/usr/include/x86_64-linux-gnu/cblas-netlib.h"
+
+  link "blas"
+
+  export *
+}
